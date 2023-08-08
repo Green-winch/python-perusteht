@@ -2,13 +2,10 @@
 #    Luo ehto, jos muuttuja on suurempi kuin 15, printtaa "Liian suuri". Luo ehto, jos muuttuja on väliltä 5-15, printtaa muuttuja.
 import random
 
-pkolikko = input("Kruunu vai klaava?: ")
-pkolikko = str(pkolikko)
-kolikko = random.randint(0,1)
-if kolikko == 0 and pkolikko == "kruunu":
-    print("Kruunu")
-elif kolikko == 1 and pkolikko == "klaava":
-    print("Klaava.")
+kolikko = random.randint(0, 20)
+if kolikko < 5:
+    print("Liian pieni")
+elif kolikko > 15:
+    print("Liian suuri")
 else:
-    print("Arvaa uudelleen.")
-
+    print(kolikko)
