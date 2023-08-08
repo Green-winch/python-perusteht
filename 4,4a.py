@@ -5,12 +5,3 @@ def Korjaa():
     global bugit
     bugit -= 1
     print("Korjattu, bugien määrä:", bugit)
-    
-def Hajoa():
-    global bugit
-    bugit *= 3
-    print("Hajosi, bugien määrä:", bugit)
-
-while bugit < 999:
-    Korjaa()
-print("Koodi ei ole pelastettavissa")
