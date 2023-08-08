@@ -1,3 +1,4 @@
+#1.1d Printtaa muuttujien summa. Printtaa muuttujien erotus. Printtaa muuttujien tulo. Printtaa muuttujien osamäärä.
 a = 10
 b = 9
 c = 8
