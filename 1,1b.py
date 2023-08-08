@@ -1,3 +1,4 @@
+#1.1b Printtaa muuttujien summa. Printtaa muuttujien erotus. Printtaa muuttujien tulo. Printtaa muuttujien osamäärä.
 a = 5
 b = 4
 c = 7
@@ -14,4 +15,3 @@ def tulo(e,f):
     return e * f
 def jako(g,h):
     return g % h
-    
