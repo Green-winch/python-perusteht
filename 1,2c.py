@@ -1,3 +1,4 @@
+#1.2c Lisää koodin pätkä, joka laskee jokaisen luvun arvoa 3:lla
 a = 64
 b = 46
 c = 24
